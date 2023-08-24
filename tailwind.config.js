@@ -11,8 +11,11 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        playfair: ["Playfair-Display", "Montserrat"],
+        playfair: ["Playfair Display", "serif"],
         manrope: ["Manrope", "sans-serif"],
+      },
+      backgroundImage: {
+        bg1: "url('./src/assets/bg1.svg')",
       },
     },
     screens: {

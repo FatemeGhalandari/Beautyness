@@ -7,7 +7,6 @@ import {
   Footer,
   Header,
   Latest,
-  Services,
   Testimonials,
 } from "./components";
 
@@ -29,7 +28,6 @@ const App = () => (
       <div className={` ${styles.boxWidth}`}>
         <Features />
         <About />
-        <Services />
         <Testimonials />
         <Benefits />
         <Appointment />

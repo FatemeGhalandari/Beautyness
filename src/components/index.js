@@ -6,7 +6,6 @@ import Features from "./Features";
 import Footer from "./Footer";
 import Header from "./Header";
 import Latest from "./Latest";
-import Services from "./Services";
 import Testimonials from "./Testimonials";
 export {
   About,
@@ -17,6 +16,5 @@ export {
   Footer,
   Header,
   Latest,
-  Services,
   Testimonials,
 };

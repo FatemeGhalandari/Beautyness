@@ -53,7 +53,7 @@ const Header = () => {
 
         <button
           type="button"
-          className="flex flex-row justify-center items-start  py-4 px-8 bg-[#7A9CA5] "
+          className="flex flex-row justify-center items-start  py-4 px-8 bg-[#7A9CA5] rounded-[4px]"
         >
           <img src={reservation} alt="reservation" className=" w-4 h-4 mr-2 " />
           <span className="text-white font-normal font-manrope text-[14px] uppercase leading-[17.5px] ">

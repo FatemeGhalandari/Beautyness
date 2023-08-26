@@ -1,11 +1,18 @@
 const styles = {
   boxWidth: "xl:max-w-[1920px] w-full",
 
-  heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph:
-    "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+  coloredBg:
+    "flex flex-col md:flex-row items-center justify-between w-full bg-[#EBF3F5] ",
 
+  features:
+    "flex flex-col items-start justify-center hover:bg-[#EBF3F5] p-4 rounded-md",
+  heading2:
+    "text-[#141414] font-playfair sm:text-[26px] text-[24px] font-semibold leading-[120%] mt-4",
+  paragraph:
+    "text-[#555] font-manrope text-[15px] font-normal leading-[165%] max-w-[327px] mt-2",
+  bt: "flex justify-center items-start sm:py-4 py-[10px] sm:px-8 px-4 border-[3px] border-[#5C8692] mt-8 rounded-[4px]",
+  btSpan:
+    "text-[#141414] text-center font-Manrope sm:text-[14px] text-[12px] font-semibold tracking-widest leading-[125%] uppercase ",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 

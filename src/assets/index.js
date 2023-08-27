@@ -29,12 +29,16 @@ import note from "./note.svg";
 import phone from "./phone.svg";
 import service from "./service.svg";
 import tick from "./tick.svg";
-import latest1 from "./latest1.svg";
-import latest2 from "./latest2.svg";
-import latest3 from "./latest3.svg";
+import latest1 from "./latest1.png";
+import latest2 from "./latest2.png";
+import latest3 from "./latest3.png";
+import fifty from "./fifty.svg";
+import instagram from "./instagram.svg";
+import Logo_white from "./Logo_white.svg";
 
 export {
   Logo,
+  Logo_white,
   call,
   facebook,
   twitter,
@@ -68,4 +72,6 @@ export {
   latest1,
   latest2,
   latest3,
+  fifty,
+  instagram,
 };

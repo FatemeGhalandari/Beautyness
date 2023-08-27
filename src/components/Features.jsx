@@ -2,7 +2,7 @@ import { feature1, feature2, feature3 } from "../assets";
 import styles from "../styles";
 
 const Features = () => (
-  <div className="flex  flex-wrap  flex-col md:flex-row items-center justify-center py-20 gap-12">
+  <div className="flex flex-wrap flex-col md:flex-row items-center justify-center py-20 gap-12">
     <div className={`${styles.features}`}>
       <img
         src={feature1}

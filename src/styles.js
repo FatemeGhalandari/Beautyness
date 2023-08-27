@@ -4,6 +4,8 @@ const styles = {
   coloredBg:
     "flex flex-col md:flex-row items-center justify-between w-full bg-[#EBF3F5] ",
 
+  footers:
+    "text-[#FFF] font-playfair text-[22px] font-semibold",
   features:
     "flex flex-col items-start justify-center hover:bg-[#EBF3F5] p-4 rounded-md",
   heading2:

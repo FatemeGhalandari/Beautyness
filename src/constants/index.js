@@ -64,26 +64,91 @@ export const offers = [
   {
     id: "name",
     title: "Name",
-    content: name,
+    icon: name,
   },
   {
     id: "email",
     title: "Email",
-    content: email,
+    icon: email,
   },
   {
     id: "phone",
     title: "Phone",
-    content: phone,
+    icon: phone,
   },
   {
     id: "service",
     title: "Service",
-    content: service,
+    icon: service,
   },
   {
     id: "note",
     title: "Any Note For Us",
-    content: note,
+    icon: note,
+  },
+];
+export const footerLinks = [
+  {
+    title: "Explore",
+    links: [
+      {
+        id: "explore1",
+        name: "Home",
+      },
+      {
+        id: "explore2",
+        name: "About Us",
+      },
+      {
+        id: "explore3",
+        name: "Services",
+      },
+      {
+        id: "explore4",
+        name: "Appointments",
+      },
+      {
+        id: "explore5",
+        name: "Blog",
+      },
+      {
+        id: "explore6",
+        name: "Contact Us",
+      },
+    ],
+  },
+  {
+    title: "Keep in Touch",
+    links: [
+      {
+        id: "keep1",
+        name: "Address: 4222 Vermont Ave, Los Angeles, CA 90037, United States",
+      },
+      {
+        id: "keep2",
+        name: "Mail: support@Beautyness.com",
+      },
+      {
+        id: "keep3",
+        name: "Phone: +1 323-234-8682",
+      },
+    ],
+  },
+  {
+    title: "Working Hours",
+    links: [
+      {
+        id: "working1",
+        name: "Mon to Fri: 7am - 6pm",
+      },
+      {
+        id: "working2",
+        name: "Sat: 9am - 7pm",
+      },
+      {
+        id: "working3",
+        name: "Sun: 9am - 6pm ",
+      },
+    ],
   },
 ];

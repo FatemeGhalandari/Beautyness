@@ -28,10 +28,10 @@ const App = () => (
       <div className={` ${styles.boxWidth}`}>
         <Features />
         <About />
-        <Testimonials />
         <Benefits />
-        <Appointment />
+        <Testimonials />
         <Latest />
+        <Appointment />
         <Footer />
       </div>
     </div>

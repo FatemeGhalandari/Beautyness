@@ -44,20 +44,15 @@ const Footer = () => (
         </div>
       </div>
       <div className="flex flex-row sm:py-8 py-2 sm:px-24 px-12 mx-3 w-full justify-between sm:items-start items-center flex-wrap ">
-        {footerLinks.map((footerLink, index) => (
-          <div
-            key={index}
-            className="flex flex-col ss:my-4 my-2 min-w-[150px] max-w-[324px]"
-          >
-            <h4 key={index} className={`${styles.footers}`}>
-              {footerLink.title}
-            </h4>
-            <ul key={index} className="list-none sm:mt-4 mt-2">
-              {footerLink.links.map((link, index2) => (
+        {footerLinks.map((footerLink) => (
+          <div className="flex flex-col ss:my-4 my-2 min-w-[150px] max-w-[324px]">
+            <h4 className={`${styles.footers}`}>{footerLink.title}</h4>
+            <ul className="list-none sm:mt-4 mt-2">
+              {footerLink.links.map((link, index) => (
                 <li
-                  key={index2}
+                  key={index}
                   className={`text-[#EDF5F7] font-manrope text-[15px] font-normal leading-[165%] max-w-[200px] cursor-pointer ${
-                    index2 !== footerLink.links.length - 1 ? "mb-2" : "mb-0"
+                    index !== footerLink.links.length - 1 ? "mb-2" : "mb-0"
                   }`}
                 >
                   {link.name}

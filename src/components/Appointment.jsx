@@ -1,5 +1,5 @@
 import styles from "../styles";
-import OfferCard from "./offerCard";
+import OfferCard from "./OfferCard";
 import OfferForm from "./OfferForm";
 
 const Appointment = () => (

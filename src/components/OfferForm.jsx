@@ -34,7 +34,7 @@ const OfferForm = () => (
       <Input
         label="Any Note For Us"
         icon={<FontAwesomeIcon icon={faEdit} style={{ color: "#5C8692" }} />}
-        className="h-[136px] "
+        className="h-[135px] "
       />
       <button
         type="button"

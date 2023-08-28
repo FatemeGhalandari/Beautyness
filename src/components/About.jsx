@@ -4,11 +4,11 @@ import styles from "../styles";
 const About = () => (
   <div className={`${styles.coloredBg}`}>
     <div className=" flex flex-col py-24 md:w-[50%] w-full items-center justify-between">
-      <div className="flex flex-col justify-start items-start">
+      <div className="flex flex-col justify-start items-start sm:px-0 px-8 ">
         <p className="text-[#5C8692] font-normal font-manrope uppercase sm:text-[16px] text-[14px]">
           about us
         </p>
-        <h2 className="text-[#141414] font-playfair sm:text-[60px] text-[50px] font-bold leading-[115%] max-w-[510px]">
+        <h2 className="text-[#141414] font-playfair sm:text-[60px] text-[45px] mt-2 font-bold leading-[115%] max-w-[510px]">
           The Beauty is about being Comfortable in your own skin!
         </h2>
         <p className="text-[#5C8692] font-normal font-manrope sm:text-[18px] text-[16px] max-w-[508px] mt-4">

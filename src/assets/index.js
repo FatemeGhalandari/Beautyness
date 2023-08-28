@@ -7,7 +7,6 @@ import reservation from "./reservation.svg";
 import close from "./close.svg";
 import menu from "./menu.svg";
 import welcome from "./welcome.svg";
-import bg1 from "./bg1.png";
 import bg2 from "./bg2.png";
 import bannerGirl from "./bannerGirl.png";
 import aboutGirl from "./aboutGirl.png";
@@ -47,7 +46,6 @@ export {
   close,
   menu,
   welcome,
-  bg1,
   bg2,
   bannerGirl,
   feature1,

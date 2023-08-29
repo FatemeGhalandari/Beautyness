@@ -17,7 +17,7 @@ module.exports = withMT({
         manrope: ["Manrope", "sans-serif"],
       },
       backgroundImage: {
-        bg1: "url('./src/assets/bg1.png')",
+        bg1: "url('../src/assets/bg1.png')",
       },
     },
     screens: {

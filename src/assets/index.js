@@ -8,6 +8,7 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 import welcome from "./welcome.svg";
 import bg2 from "./bg2.png";
+import bg1 from "./bg1.png";
 import bannerGirl from "./bannerGirl.png";
 import aboutGirl from "./aboutGirl.png";
 import feature1 from "./feature1.png";
@@ -46,6 +47,7 @@ export {
   close,
   menu,
   welcome,
+  bg1,
   bg2,
   bannerGirl,
   feature1,

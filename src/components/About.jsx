@@ -40,11 +40,11 @@ const About = () => (
       </div>
     </div>
     <div className="bg-[#84A8B2] md:w-[50%] w-full relative">
-      <div className="bg-bg1 w-full flex sm:pr-2 pr-4 relative sm:py-32 py-24">
+      <div className="bg-bg1 w-full flex lg:py-44 md:py-48 py-36 md:pr-2 pr-4 md:pl-0 pl-4 sm:relative md:justify-start justify-center">
         <img
           src={aboutGirl}
           alt="aboutGirl"
-          className="sm:w-[500px] sm:h-[576px] relative sm:object-cover object-contain border-[#EBF3F5] border-solid sm:border-8 sm:border-l-0 border-l-0 border-4 p-4 pl-0"
+          className="sm:w-[500px] sm:h-[576px] relative sm:object-cover object-contain border-[#EBF3F5] border-solid sm:border-8 md:border-l-0 border-l-4 border-4 p-4 md:pl-0 pl-4"
         />
       </div>
     </div>

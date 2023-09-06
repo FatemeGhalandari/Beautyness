@@ -1,6 +1,9 @@
-# Beautyness Website
 
-
+<a href="https://beautyness-bodycare.vercel.app/">
+<img src="src/assets/Logo_white.svg" alt="Beauty is power a smile is its sword.">
+</a>   
+<br>
+<br>
 Beautyness is a modern and responsive website dedicated to beauty and body care. This Git repository contains the source code for the Beautyness website, which is built using ReactJS, Tailwind CSS, and Vite.
 
 ## Features

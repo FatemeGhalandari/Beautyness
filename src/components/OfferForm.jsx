@@ -38,9 +38,9 @@ const OfferForm = () => (
       />
       <button
         type="button"
-        className="flex items-center justify-center w-full py-4 bg-[#7A9CA5] mt-24 rounded-[2px]"
+        className="flex items-center justify-center w-full py-4 bg-[#7A9CA5] mt-24 rounded-[2px] hover:bg-[#647f93]"
       >
-        <span className="text-[#FFF] font-medium font-manrope text-[14px] uppercase tracking-widest">
+        <span className="text-[#FFF] font-medium font-manrope text-[14px] uppercase tracking-widest relative">
           get an appointment
         </span>
       </button>

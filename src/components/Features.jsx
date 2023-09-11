@@ -17,6 +17,7 @@ const Features = () => (
         salon.
       </p>
       <button type="button" className={`${styles.bt}`}>
+        <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
         <span className={`${styles.btSpan}`}>read more</span>
       </button>
     </div>
@@ -34,6 +35,7 @@ const Features = () => (
         place to do it.
       </p>
       <button type="button" className={`${styles.bt}`}>
+        <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
         <span className={`${styles.btSpan}`}>read more</span>
       </button>
     </div>
@@ -50,6 +52,7 @@ const Features = () => (
         beauty salon is the first step in your journey to utter relaxation.
       </p>
       <button type="button" className={`${styles.bt}`}>
+        <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
         <span className={`${styles.btSpan}`}>read more</span>
       </button>
     </div>

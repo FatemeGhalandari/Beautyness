@@ -39,8 +39,8 @@ const About = () => (
         </div>
       </div>
     </div>
-    <div className="bg-[#84A8B2] md:w-[50%] w-full relative">
-      <div className="bg-bg1 w-full flex lg:py-44 md:py-48 py-36 md:pr-2 pr-4 md:pl-0 pl-4 sm:relative md:justify-start justify-center">
+    <div className="bg-[#84A8B2] md:w-[50%] w-full">
+      <div className=" bg-bg1 w-full flex lg:py-40 md:py-48 py-36 md:pr-2 pr-4 md:pl-0 pl-4 sm:relative md:justify-start justify-center">
         <img
           src={aboutGirl}
           alt="aboutGirl"

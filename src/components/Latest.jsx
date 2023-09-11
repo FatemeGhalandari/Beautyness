@@ -63,6 +63,7 @@ const Latest = () => (
       </div>
     </div>
     <button type="button" className={`${styles.bt}`}>
+      <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
       <span className={`${styles.btSpan}`}>VIEW MORE STORIES</span>
     </button>
   </div>

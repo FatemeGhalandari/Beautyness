@@ -4,17 +4,16 @@ const styles = {
   coloredBg:
     "flex flex-col md:flex-row items-center justify-between w-full bg-[#EBF3F5] ",
 
-  footers:
-    "text-[#FFF] font-playfair text-[22px] font-semibold",
+  footers: "text-[#FFF] font-playfair text-[22px] font-semibold",
   features:
     "flex flex-col items-start justify-center hover:bg-[#EBF3F5] p-4 rounded-md",
   heading2:
     "text-[#141414] font-playfair sm:text-[26px] text-[24px] font-semibold leading-[120%] mt-4",
   paragraph:
     "text-[#555] font-manrope text-[15px] font-normal leading-[165%] max-w-[327px] mt-2",
-  bt: "flex justify-center items-start sm:py-4 py-[10px] sm:px-8 px-4 border-[3px] border-[#5C8692] mt-8 rounded-[4px]",
+  bt: "flex justify-center items-start sm:py-4 py-[10px] sm:px-8 px-4 border-[3px] border-[#5C8692] mt-8 rounded-[4px] overflow-hidden group relative",
   btSpan:
-    "text-[#141414] text-center font-Manrope sm:text-[14px] text-[12px] font-semibold tracking-widest leading-[125%] uppercase ",
+    "text-[#141414] text-center font-Manrope sm:text-[14px] text-[12px] font-semibold tracking-widest leading-[125%] uppercase relative",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 

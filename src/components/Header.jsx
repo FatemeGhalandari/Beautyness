@@ -61,9 +61,9 @@ const Header = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } absolute top-14 right-0 bg-[#FFF] pt-2 `}
+          } absolute top-14 left-0 bg-[#FFF] pt-4 w-full item-center justify-center`}
         >
-          <div className="flex flex-col items-center rounded-t-[2px] ">
+          <div className="flex flex-col items-center justify-center rounded-t-[2px] ">
             <ul className="flex flex-col mt-4">
               {headerLinks.map((headerLink, index) => (
                 <li
@@ -79,14 +79,9 @@ const Header = () => {
 
             <button
               type="button"
-              className="flex flex-row justify-center items-start py-4 px-8 bg-[#7A9CA5] rounded-b-[2px] mt-4"
+              className="flex flex-row justify-center items-center py-3"
             >
-              <img
-                src={reservation}
-                alt="reservation"
-                className=" w-4 h-4 mr-2 "
-              />
-              <span className="text-white font-normal font-manrope text-[14px] uppercase leading-[17.5px] ">
+              <span className="text-[#7A9CA5] text-center font-semibold font-manrope text-[16px] uppercase py-2">
                 reservation
               </span>
             </button>

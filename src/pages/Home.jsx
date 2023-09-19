@@ -14,11 +14,6 @@ import styles from "../styles";
 
 const Home = () => (
   <div className="w-full bg-white overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-      <div className={` ${styles.boxWidth}`}>
-        <Header />
-      </div>
-    </div>
     <div className={`${styles.flexStart} `}>
       <div className={` ${styles.boxWidth}`}>
         <Banner />
@@ -33,7 +28,6 @@ const Home = () => (
         <Testimonials />
         <Latest />
         <Appointment />
-        <Footer />
       </div>
     </div>
   </div>

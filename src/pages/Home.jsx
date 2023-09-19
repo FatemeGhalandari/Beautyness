@@ -4,8 +4,6 @@ import {
   Banner,
   Benefits,
   Features,
-  Footer,
-  Header,
   Latest,
   Testimonials,
 } from "../components";

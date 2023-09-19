@@ -2,10 +2,6 @@ import { email, name, note, phone, service } from "../assets";
 
 export const headerLinks = [
   {
-    id: "home",
-    title: "Home",
-  },
-  {
     id: "pages",
     title: "Pages",
   },

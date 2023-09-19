@@ -10,17 +10,20 @@ import {
   menu,
 } from "../assets";
 import { headerLinks } from "../constants";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-4 justify-between items-center navbar">
       <div className="flex px-8">
-        <img
-          src={Logo}
-          alt="logo"
-          className="w-[191px] h-[36px] leading-[125%]"
-        />
+        <NavLink to="/">
+          <img
+            src={Logo}
+            alt="logo"
+            className="w-[191px] h-[36px] leading-[125%]"
+          />
+        </NavLink>
       </div>
       <div className="flex-row justify-end items-center gap-12 md:flex hidden ml-4 md:ml-2 lg:px-16 px-0">
         <ul className="flex justify-end">
@@ -31,7 +34,7 @@ const Header = () => {
                 index !== headerLinks.length - 1 ? "mr-4" : "mr-0"
               }`}
             >
-              {headerLink.title}
+              <NavLink to={headerLink.title}>{headerLink.title}</NavLink>
             </li>
           ))}
         </ul>

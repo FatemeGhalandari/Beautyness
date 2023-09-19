@@ -14,12 +14,13 @@ import {
   Blog,
   Reservation,
   Notfound,
-} from "./pages/Home";
+} from "./pages";
+import RootLayout from "./components/RootLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
-      <Route path="/" element={<Home />} />
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/Services" element={<Services />} />
       <Route path="/Contact" element={<Contact />} />

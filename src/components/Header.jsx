@@ -15,9 +15,9 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-4 justify-between items-center navbar">
+    <nav className="w-full flex py-4 justify-between items-center navbar sm:px-16 ss:px-8 px-4">
       <div className="flex px-8">
-        <NavLink to="/">
+        <NavLink to="/" className="flex sm:px-16 md:px-8">
           <img
             src={Logo}
             alt="logo"

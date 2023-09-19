@@ -1,41 +1,38 @@
 import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+
+import {
+  Home,
   About,
-  Appointment,
-  Banner,
-  Benefits,
-  Features,
-  Footer,
-  Header,
-  Latest,
-  Testimonials,
-} from "./components";
+  Services,
+  Contact,
+  Blogs,
+  Blog,
+  Reservation,
+  Notfound,
+} from "./pages/Home";
 
-import styles from "./styles";
-const App = () => (
-  <div className="w-full bg-white overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-      <div className={` ${styles.boxWidth}`}>
-        <Header />
-      </div>
-    </div>
-    <div className={`${styles.flexStart} `}>
-      <div className={` ${styles.boxWidth}`}>
-        <Banner />
-      </div>
-    </div>
-
-    <div className={`${styles.flexStart} `}>
-      <div className={` ${styles.boxWidth}`}>
-        <Features />
-        <About />
-        <Benefits />
-        <Testimonials />
-        <Latest />
-        <Appointment />
-        <Footer />
-      </div>
-    </div>
-  </div>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Services" element={<Services />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Blogs" element={<Blogs />} />
+      <Route path="/Blog" element={<Blog />} />
+      <Route path="/Reservation" element={<Reservation />} />
+      <Route path="*" element={<Notfound />} />
+    </Route>
+  )
 );
+
+const App = () => {
+  return <RouterProvider router={router} />;
+};
 
 export default App;

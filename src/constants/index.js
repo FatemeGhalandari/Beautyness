@@ -148,3 +148,31 @@ export const footerLinks = [
     ],
   },
 ];
+
+import { expert1, expert2, expert3 } from "../assets"
+export const experts = [
+  {
+    id: "expert1",
+    avatar: expert1,
+    name: "Sherlin D’Cruz",
+    job: "Beautyness Expert",
+    description:
+      "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",
+  },
+  {
+    id: "expert2",
+    avatar: expert2,
+    name: "Maria Sharapova",
+    job: "Beautyness Expert",
+    description:
+      "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",
+  },
+  {
+    id: "expert3",
+    avatar: expert3,
+    name: "Angeline Jenifer",
+    job: "Beautyness Expert",
+    description:
+      "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",
+  },
+];

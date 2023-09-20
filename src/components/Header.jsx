@@ -1,10 +1,6 @@
 import { useState } from "react";
 import {
   Logo,
-  call,
-  facebook,
-  linkedIn,
-  twitter,
   reservation,
   close,
   menu,
@@ -16,7 +12,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-4 justify-between items-center navbar sm:px-16 ss:px-8 px-4">
-      <div className="flex px-8">
+      <div className="flex sm:px-8 px-4">
         <NavLink to="/" className="flex sm:px-16 md:px-8">
           <img
             src={Logo}

@@ -149,7 +149,7 @@ export const footerLinks = [
   },
 ];
 
-import { expert1, expert2, expert3 } from "../assets"
+import { expert1, expert2, expert3 } from "../assets";
 export const experts = [
   {
     id: "expert1",
@@ -174,5 +174,30 @@ export const experts = [
     job: "Beautyness Expert",
     description:
       "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",
+  },
+];
+
+import { about1, about2, about3 } from "../assets";
+export const values = [
+  {
+    id: "value1",
+    avatar: about1,
+    title: "Beauty Experts",
+    description:
+      "The majority have suffered alteration in some form, buying to injected humour, or randomized words which desktop publishing packages.",
+  },
+  {
+    id: "value2",
+    avatar: about2,
+    title: "Great Services",
+    description:
+      "The majority have suffered alteration in some form, buying to injected humour, or randomized words which desktop publishing packages.",
+  },
+  {
+    id: "value3",
+    avatar: about3,
+    title: "100% Genuine",
+    description:
+      "The majority have suffered alteration in some form, buying to injected humour, or randomized words which desktop publishing packages.",
   },
 ];

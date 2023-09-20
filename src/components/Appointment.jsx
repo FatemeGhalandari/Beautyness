@@ -1,6 +1,6 @@
 import styles from "../styles";
-import OfferCard from "./OfferCard";
-import OfferForm from "./OfferForm";
+import OfferCard from "../components/OfferCard";
+import OfferForm from "../components/OfferForm";
 
 const Appointment = () => (
   <div className="flex md:flex-row flex-col md:px-48 px-2 justify-center  items-center py-24 gap-24 bg-[#EDF5F7]">

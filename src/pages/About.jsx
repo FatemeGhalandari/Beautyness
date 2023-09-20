@@ -2,7 +2,7 @@ import Banner from "../components/About/Banner";
 import Features from "../components/About/Features";
 import AboutUs from "../components/About/AboutUs";
 import Experts from "../components/About/Experts";
-import Testimonials from "../components/About/Testimonials";
+import Testimonials from "../components/Testimonials";
 import Share from "../components/About/Share";
 
 import styles from "../styles";

@@ -1,6 +1,10 @@
 import Banner from "../components/About/Banner";
 import Features from "../components/About/Features";
 import AboutUs from "../components/About/AboutUs";
+import Experts from "../components/About/Experts";
+import Testimonials from "../components/About/Testimonials";
+import Share from "../components/About/Share";
+
 import styles from "../styles";
 
 const About = () => (
@@ -10,6 +14,9 @@ const About = () => (
         <Banner />
         <Features />
         <AboutUs />
+        <Experts />
+        <Testimonials />
+        <Share />
       </div>
     </div>
   </div>

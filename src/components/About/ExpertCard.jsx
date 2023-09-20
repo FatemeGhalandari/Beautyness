@@ -3,9 +3,9 @@ import {
   faFacebookF,
   faTwitter,
   faLinkedin,
-  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { experts } from "../../constants";
+import styles from "../../styles";
 
 const ExpertCard = () => {
   return (
@@ -13,7 +13,7 @@ const ExpertCard = () => {
       {experts.map((expert) => (
         <div
           key={expert.id}
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center hover:bg-[#EDF5F7] p-3 rounded-lg"
         >
           <img
             src={expert.avatar}
@@ -33,22 +33,17 @@ const ExpertCard = () => {
             <FontAwesomeIcon
               icon={faFacebookF}
               style={{ color: "#5C8692" }}
-              className="cursor-pointer"
+              className={styles.socialIcon}
             />
             <FontAwesomeIcon
               icon={faTwitter}
               style={{ color: "#5C8692" }}
-              className=" cursor-pointer"
+              className={styles.socialIcon}
             />
             <FontAwesomeIcon
               icon={faLinkedin}
               style={{ color: "#5C8692" }}
-              className="cursor-pointer"
-            />
-            <FontAwesomeIcon
-              icon={faInstagram}
-              style={{ color: "#5C8692" }}
-              className="cursor-pointer hover:beat"
+              className={styles.socialIcon}
             />
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 <a href="https://beautyness-bodycare.vercel.app/">
 <img src="src/assets/Logo_white.svg" alt="Beauty is power a smile is its sword.">
 </a>   
@@ -46,7 +45,7 @@ Follow these steps to get the Beautyness website up and running on your local ma
    npm run dev
    ```
 
-5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the Beautyness website.
+5. Open your web browser and visit [http://localhost:5173](http://localhost:5173) to view the Beautyness website.
 
 ## Contributing
 
@@ -71,7 +70,6 @@ If you'd like to contribute to the Beautyness website project, please follow the
 5. Create a pull request from your forked repository to this main repository, describing your changes in detail.
 
 6. Your pull request will be reviewed, and once approved, your changes will be merged into the main branch.
-
 
 ---
 

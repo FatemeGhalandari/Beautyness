@@ -75,7 +75,7 @@ const Header = () => {
                     index !== headerLinks.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  {headerLink.title}
+                  <NavLink to={headerLink.title}>{headerLink.title}</NavLink>
                 </li>
               ))}
             </ul>

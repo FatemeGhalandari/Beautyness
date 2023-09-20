@@ -36,6 +36,9 @@ import latest3 from "./latest3.png";
 import fifty from "./fifty.svg";
 import instagram from "./instagram.svg";
 import Logo_white from "./Logo_white.svg";
+import expert1 from "./expert1.png";
+import expert2 from "./expert2.png";
+import expert3 from "./expert3.png";
 
 export {
   Logo,
@@ -76,4 +79,7 @@ export {
   latest3,
   fifty,
   instagram,
+  expert1,
+  expert2,
+  expert3,
 };

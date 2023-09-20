@@ -39,6 +39,9 @@ import Logo_white from "./Logo_white.svg";
 import expert1 from "./expert1.png";
 import expert2 from "./expert2.png";
 import expert3 from "./expert3.png";
+import share1 from "./share1.png";
+import share2 from "./share2.png";
+import share3 from "./share3.png";
 
 export {
   Logo,
@@ -82,4 +85,7 @@ export {
   expert1,
   expert2,
   expert3,
+  share1,
+  share2,
+  share3,
 };

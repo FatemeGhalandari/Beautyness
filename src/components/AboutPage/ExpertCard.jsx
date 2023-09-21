@@ -4,7 +4,7 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { experts } from "../../constants";
+import { experts } from "../../data";
 import styles from "../../styles";
 
 const ExpertCard = () => {

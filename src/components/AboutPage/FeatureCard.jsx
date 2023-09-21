@@ -1,4 +1,4 @@
-import { values } from "../../constants";
+import { values } from "../../data";
 
 const FeatureCard = () => (
   <div className="flex flex-col py-4 ">

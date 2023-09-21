@@ -5,7 +5,7 @@ import {
   close,
   menu,
 } from "../assets";
-import { headerLinks } from "../constants";
+import { headerLinks } from "../data";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {

@@ -17,8 +17,7 @@ const Testimonials = () => (
           <p className="font-manrope text-[#141414] max-w-[582px] sm:text-[19px] text-[15px] font-normal leading-[150%] sm:px-24 px-8 py-8">
             "I've been a loyal customer of Beautyness for over two years now,
             and I can confidently say that it's the best beauty salon I've ever
-            been to. The staff is incredibly skilled and friendly, always making
-            me feel welcome and pampered."
+            been to. The staff is incredibly skilled and friendly"
           </p>
           <div className="bg-[#1E2C30] flex flex-row w-full px-8 md:py-6 py-4 rounded-b-[6px]">
             <div className="flex xs:flex-row flex-col items-start justify-start ">

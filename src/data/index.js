@@ -154,7 +154,7 @@ export const experts = [
   {
     id: "expert1",
     avatar: expert1,
-    name: "Sherlin D’Cruz",
+    name: "Sheri D’Cruz",
     job: "Beautyness Expert",
     description:
       "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",
@@ -162,7 +162,7 @@ export const experts = [
   {
     id: "expert2",
     avatar: expert2,
-    name: "Maria Sharapova",
+    name: "Maria Smith",
     job: "Beautyness Expert",
     description:
       "I must explain to you how all this mistaken idea of denouncing pleasure that will arise praising pain",

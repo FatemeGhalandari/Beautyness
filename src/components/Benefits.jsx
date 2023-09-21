@@ -1,5 +1,5 @@
 import BenefitCard from "./BenefitCard";
-import { benefits } from "../constants";
+import { benefits } from "../data";
 
 const Benefits = () => (
   <div className="flex flex-col py-24 ">

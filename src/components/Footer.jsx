@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Logo_white } from "../assets";
 import styles from "../styles";
-import { footerLinks } from "../constants";
+import { footerLinks } from "../data";
 
 const Footer = () => (
   <div className="flex flex-col ">

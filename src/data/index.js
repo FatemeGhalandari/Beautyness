@@ -201,3 +201,137 @@ export const values = [
       "The majority have suffered alteration in some form, buying to injected humour, or randomized words which desktop publishing packages.",
   },
 ];
+
+import { service1, service2, service3, service4, service5 } from "../assets";
+export const services = [
+  {
+    id: "service1",
+    avatar: service1,
+    experiences: [
+      {
+        id: "experience1",
+        item: "Face masks   .......................................          $48.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience2",
+        item: "Full body massage  .............................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience3",
+        item: "Geothermal spa  .................................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience4",
+        item: "Sauna relax  .......................................          $73.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+    ],
+  },
+  {
+    id: "service2",
+    avatar: service2,
+    experiences: [
+      {
+        id: "experience1",
+        item: "Face masks   .......................................          $48.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience2",
+        item: "Full body massage  .............................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience3",
+        item: "Geothermal spa  .................................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience4",
+        item: "Sauna relax  .......................................          $73.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+    ],
+  },
+  {
+    id: "service3",
+    avatar: service3,
+    experiences: [
+      {
+        id: "experience1",
+        item: "Face masks   .......................................          $48.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience2",
+        item: "Full body massage  .............................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience3",
+        item: "Geothermal spa  .................................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience4",
+        item: "Sauna relax  .......................................          $73.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+    ],
+  },
+  {
+    id: "service4",
+    avatar: service4,
+    experiences: [
+      {
+        id: "experience1",
+        item: "Face masks   .......................................          $48.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience2",
+        item: "Full body massage  .............................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience3",
+        item: "Geothermal spa  .................................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience4",
+        item: "Sauna relax  .......................................          $73.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+    ],
+  },
+  {
+    id: "service5",
+    avatar: service5,
+    experiences: [
+      {
+        id: "experience1",
+        item: "Face masks   .......................................          $48.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience2",
+        item: "Full body massage  .............................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience3",
+        item: "Geothermal spa  .................................          $54.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+      {
+        id: "experience4",
+        item: "Sauna relax  .......................................          $73.00",
+        desc: "The versions have evolved over the sometimes by accident.",
+      },
+    ],
+  },
+];

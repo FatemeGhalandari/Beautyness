@@ -2,8 +2,8 @@ const styles = {
   boxWidth: "xl:max-w-[1920px] w-full",
 
   serviceItem:
-    "text-[#141414] font-playfair text-[23px] font-semibold leading-[130%]",
-  serviceDesc: "text-[#555] font-manrope text-[18px] font-thin leading-[165%]",
+    "text-[#141414] font-playfair text-[20px] font-semibold leading-[130%]",
+  serviceDesc: "text-[#555] font-manrope text-[17px] font-thin leading-[165%]",
 
   socialIcon:
     "cursor-pointer text-[16px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100",

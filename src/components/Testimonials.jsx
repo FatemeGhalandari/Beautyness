@@ -1,4 +1,3 @@
-import styles from "../styles";
 import { quote, star, star_half, testimonial1, testimonial2 } from "../assets";
 
 const Testimonials = () => (
@@ -14,10 +13,11 @@ const Testimonials = () => (
       </div>
       <div className="flex md:flex-row flex-col py-12 sm:mx-4 mx-8 md:items-start items-center justify-center gap-8 ">
         <div className="flex flex-col items-center justify-center bg-[#FFF] rounded-t-[6px]">
-          <p className="font-manrope text-[#141414] max-w-[582px] sm:text-[19px] text-[15px] font-normal leading-[150%] sm:px-24 px-8 py-8">
-            "I've been a loyal customer of Beautyness for over two years now,
-            and I can confidently say that it's the best beauty salon I've ever
-            been to. The staff is incredibly skilled and friendly"
+          <p className="font-manrope text-[#141414] max-w-[585px] sm:text-[19px] text-[15px] font-normal leading-[150%] sm:px-24 px-8 py-8">
+            &quot;I&apos;ve been a loyal customer of Beautyness for over two
+            years now, and I can confidently say that it&apos;s the best beauty
+            salon I&apos;ve ever been to. The staff is incredibly skilled and
+            friendly&quot;
           </p>
           <div className="bg-[#1E2C30] flex flex-row w-full px-8 md:py-6 py-4 rounded-b-[6px]">
             <div className="flex xs:flex-row flex-col items-start justify-start ">
@@ -72,10 +72,11 @@ const Testimonials = () => (
           </div>
         </div>
         <div className="flex flex-col items-center justify-center bg-white rounded-t-[6px]">
-          <p className="font-manrope text-[#141414] max-w-[582px] sm:text-[19px] text-[15px] font-normal leading-[150%] sm:px-24 px-8 py-8  ">
-            "Beautyness is my little haven of relaxation and transformation.
-            Walking into the salon instantly puts me in a calm state of mind,
-            and the services they offer take that experience to the next level."
+          <p className="font-manrope text-[#141414] max-w-[582px] sm:text-[19px] text-[15px] font-normal leading-[150%] sm:px-24 px-8 py-8">
+            &quot;I&apos;ve been a loyal customer of Beautyness for over two
+            years now, and I can confidently say that it&apos;s the best beauty
+            salon I&apos;ve ever been to. The staff is incredibly skilled and
+            friendly&quot;
           </p>
           <div className="bg-[#1E2C30] flex flex-row w-full px-8 md:py-6 py-4 rounded-b-[6px]">
             <div className="flex xs:flex-row flex-col items-start justify-start ">

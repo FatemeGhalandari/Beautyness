@@ -38,7 +38,7 @@ const Header = () => {
           type="button"
           className="flex flex-row justify-center items-start py-4 px-8 bg-[#7A9CA5] rounded-[4px] overflow-hidden group relative "
         >
-          <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
+          <NavLink to="/Reservation" className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></NavLink>
           <img
             src={reservation}
             alt="reservation"

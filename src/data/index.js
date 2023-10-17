@@ -335,3 +335,21 @@ export const services = [
     ],
   },
 ];
+
+export const Stages = [
+  {
+    id: "stage1",
+    title: "The Assessment Stage",
+    desc: "The point of using Lorem Ipsum is that it has a more-or-less normal letters.",
+  },
+  {
+    id: "stage2",
+    title: "The Initialisation Stage",
+    desc: "The point of using Lorem Ipsum is that it has a more-or-less normal letters.",
+  },
+  {
+    id: "stage3",
+    title: "The Treatment Stage",
+    desc: "The point of using Lorem Ipsum is that it has a more-or-less normal letters.",
+  },
+];

@@ -1,6 +1,11 @@
 const styles = {
   boxWidth: "xl:max-w-[1920px] w-full",
 
+  stageTitle:
+    "text-[#141414] font-manrope text-[17px] font-semibold leading-[200%]",
+  stageDesc:
+    "text-[#555] font-manrope text-[15px] font-normal leading-[175%] max-w-[448px]",
+
   serviceItem:
     "text-[#141414] font-playfair sm:text-[20px] text-[13px] font-semibold leading-[130%]",
   serviceDesc:

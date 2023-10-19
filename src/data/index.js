@@ -353,3 +353,58 @@ export const Stages = [
     desc: "The point of using Lorem Ipsum is that it has a more-or-less normal letters.",
   },
 ];
+
+export const Members = [
+  {
+    id: "Member1",
+    title: "Comfort Relax",
+    desc: [
+      {
+        id: "desc1",
+        desc: "Releases muscle tension",
+      },
+      {
+        id: "desc2",
+        desc: "Relieves lower back pain",
+      },
+      {
+        id: "desc3",
+        desc: "Heals sports injuries",
+      },
+      {
+        id: "desc4",
+        desc: "Increases mobility",
+      },
+      {
+        id: "desc5",
+        desc: "Increases muscle strength",
+      },
+    ],
+  },
+  {
+    id: "Member2",
+    title: "Luxury Retreat",
+    desc: [
+      {
+        id: "desc1",
+        desc: "Releases muscle tension",
+      },
+      {
+        id: "desc2",
+        desc: "Relieves lower back pain",
+      },
+      {
+        id: "desc3",
+        desc: "Heals sports injuries",
+      },
+      {
+        id: "desc4",
+        desc: "Increases mobility",
+      },
+      {
+        id: "desc5",
+        desc: "Increases muscle strength",
+      },
+    ],
+  },
+];

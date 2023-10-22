@@ -1,5 +1,6 @@
 import styles from "../../styles";
 import { services } from "../../data";
+import { NavLink } from "react-router-dom";
 
 const ServiceCard = () => (
   <div className="flex flex-col py-12 items-center justify-center sm:gap-8 gap-2">
@@ -26,12 +27,12 @@ const ServiceCard = () => (
             </div>
           ))}
 
-          <div className="flex py-8">
+          <NavLink to="/Reservation" className="flex py-8">
             <button type="button" className={`${styles.bt}`}>
               <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
               <span className={`${styles.btSpan}`}>get an appointment</span>
             </button>
-          </div>
+          </NavLink>
         </div>{" "}
       </div>
     ))}

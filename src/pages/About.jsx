@@ -1,9 +1,9 @@
-import Banner from "../components/AboutPage/Banner";
-import Features from "../components/AboutPage/Features";
-import AboutUs from "../components/AboutPage/AboutUs";
-import Experts from "../components/AboutPage/Experts";
+import Banner from "../components/About/Banner";
+import Features from "../components/About/Features";
+import AboutUs from "../components/About/AboutUs";
+import Experts from "../components/About/Experts";
 import Testimonials from "../components/Testimonials";
-import Share from "../components/AboutPage/Share";
+import Share from "../components/About/Share";
 
 import styles from "../styles";
 

@@ -10,7 +10,6 @@ import {
   About,
   Services,
   Contact,
-  Blogs,
   Blog,
   Reservation,
   Notfound,
@@ -24,7 +23,6 @@ const router = createBrowserRouter(
       <Route path="/About" element={<About />} />
       <Route path="/Services" element={<Services />} />
       <Route path="/Contact" element={<Contact />} />
-      <Route path="/Blogs" element={<Blogs />} />
       <Route path="/Blog" element={<Blog />} />
       <Route path="/Reservation" element={<Reservation />} />
       <Route path="*" element={<Notfound />} />

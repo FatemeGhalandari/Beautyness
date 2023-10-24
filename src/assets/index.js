@@ -49,6 +49,7 @@ import service4 from "./service4.jpg";
 import service5 from "./service5.jpg";
 import aboutService from "./aboutService.jpg";
 import circleTick from "./circleTick.svg";
+import visit from "./visit.jpg";
 
 export {
   Logo,
@@ -102,4 +103,5 @@ export {
   service5,
   aboutService,
   circleTick,
+  visit,
 };

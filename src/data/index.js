@@ -353,3 +353,21 @@ export const Stages = [
     desc: "The point of using Lorem Ipsum is that it has a more-or-less normal letters.",
   },
 ];
+
+export const Visits = [
+  {
+    id: "visit1",
+    title: "Visit Us :",
+    desc: "NO.09a, Downtown, SAN DIEGO, USA",
+  },
+  {
+    id: "visit2",
+    title: "Drop Us :",
+    desc: "support@beautyness.com",
+  },
+  {
+    id: "visit3",
+    title: "Call Us :",
+    desc: "Call: 1-800-123-9999",
+  },
+];

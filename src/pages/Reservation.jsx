@@ -1,6 +1,6 @@
-import Banner from "../components/ServicePage/Banner";
-import About from "../components/ServicePage/About";
-import Membership from "../components/ServicePage/Membership";
+import Banner from "../components/Service/Banner";
+import About from "../components/Service/About";
+import Membership from "../components/Service/Membership";
 import Benefits from "../components/Benefits";
 import styles from "../styles";
 const Reservation = () => (

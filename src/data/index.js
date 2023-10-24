@@ -1,7 +1,7 @@
 export const headerLinks = [
   {
-    id: "pages",
-    title: "Pages",
+    id: "blog",
+    title: "Blog",
   },
   {
     id: "about",
@@ -369,5 +369,51 @@ export const Visits = [
     id: "visit3",
     title: "Call Us :",
     desc: "Call: 1-800-123-9999",
+  },
+];
+
+import { story1, story2, story3, story4, story5, story6 } from "../assets";
+export const stories = [
+  {
+    id: "story1",
+    icon: story1,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "The energy efficiency of the hydrotherapy or swim",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
+  },
+  {
+    id: "story2",
+    icon: story2,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "Tips to improve your body via cleansing",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
+  },
+  {
+    id: "story3",
+    icon: story3,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "Experience the beauty at our beauty spa",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
+  },
+  {
+    id: "story4",
+    icon: story4,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "The best and perfect skincare strategy",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
+  },
+  {
+    id: "story5",
+    icon: story5,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "Fell the natural reverse aging process",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
+  },
+  {
+    id: "story6",
+    icon: story6,
+    caption: "11TH AUGUST 2021 - BY PETER BERGSON",
+    title: "How to make the make-up stay longer than usual",
+    desc: "The point of using Lorem Ipsum hiter that using making it look like others readable will get end.",
   },
 ];

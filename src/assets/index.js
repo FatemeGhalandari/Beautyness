@@ -50,6 +50,12 @@ import service5 from "./service5.jpg";
 import aboutService from "./aboutService.jpg";
 import circleTick from "./circleTick.svg";
 import visit from "./visit.jpg";
+import story1 from "./story1.jpg";
+import story2 from "./story2.jpg";
+import story3 from "./story3.jpg";
+import story4 from "./story4.jpg";
+import story5 from "./story5.jpg";
+import story6 from "./story6.jpg";
 
 export {
   Logo,
@@ -104,4 +110,10 @@ export {
   aboutService,
   circleTick,
   visit,
+  story1,
+  story2,
+  story3,
+  story4,
+  story5,
+  story6,
 };

@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-  Logo,
-  reservation,
-  close,
-  menu,
-} from "../assets";
+import { Logo, reservation, close, menu } from "../assets";
 import { headerLinks } from "../data";
 import { NavLink } from "react-router-dom";
 
@@ -34,20 +29,22 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <button
-          type="button"
-          className="flex flex-row justify-center items-start py-4 px-8 bg-[#7A9CA5] rounded-[4px] overflow-hidden group relative "
-        >
-          <NavLink to="/Reservation" className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></NavLink>
-          <img
-            src={reservation}
-            alt="reservation"
-            className=" w-4 h-4 mr-2 relative"
-          />
-          <span className="text-white font-normal font-manrope text-[16px] uppercase leading-[17.5px] relative ">
-            reservation
-          </span>
-        </button>
+        <NavLink to="/Reservation">
+          <button
+            type="button"
+            className="flex flex-row justify-center items-start py-4 px-8 bg-[#7A9CA5] rounded-[4px] overflow-hidden group relative "
+          >
+            <div className="absolute inset-0 w-0 bg-[#5C8692] transition-all duration-[200ms] ease-out group-hover:w-full"></div>
+            <img
+              src={reservation}
+              alt="reservation"
+              className=" w-4 h-4 mr-2 relative"
+            />
+            <span className="text-white font-normal font-manrope text-[16px] uppercase leading-[17.5px] relative ">
+              reservation
+            </span>
+          </button>
+        </NavLink>
       </div>
       {/* responsive */}
       <div className="md:hidden flex flex-1 justify-end items-center">
@@ -80,9 +77,12 @@ const Header = () => {
               type="button"
               className="flex flex-row justify-center items-center py-3"
             >
-              <span className="text-[#7A9CA5] text-center font-semibold font-manrope text-[16px] uppercase py-2">
+              <NavLink
+                to="/Reservation"
+                className="text-[#7A9CA5] text-center font-semibold font-manrope text-[16px] uppercase py-2"
+              >
                 reservation
-              </span>
+              </NavLink>
             </button>
           </div>
         </div>

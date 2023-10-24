@@ -1,5 +1,5 @@
 import Banner from "../components/Contact/Banner";
-import Membership from "../components/ServicePage/Membership";
+import Membership from "../components/Service/Membership";
 import styles from "../styles";
 import Visit from "../components/Contact/Visit";
 const Reservation = () => (
@@ -7,7 +7,7 @@ const Reservation = () => (
     <div className={`${styles.flexStart} `}>
       <div className={` ${styles.boxWidth}`}>
         <Banner />
-        <Visit/>
+        <Visit />
         <Membership />
       </div>
     </div>

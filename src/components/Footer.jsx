@@ -45,7 +45,10 @@ const Footer = () => (
       </div>
       <div className="flex flex-row sm:py-8 py-2 sm:px-24 px-4 mx-3 w-full justify-between items-start flex-wrap ">
         {footerLinks.map((footerLink) => (
-          <div className="flex flex-col ss:my-4 my-2 min-w-[150px] max-w-[324px]">
+          <div
+            key={footerLink.id}
+            className="flex flex-col ss:my-4 my-2 min-w-[150px] max-w-[324px]"
+          >
             <h4 className={`${styles.footers}`}>{footerLink.title}</h4>
             <ul className="list-none sm:mt-4 mt-2">
               {footerLink.links.map((link, index) => (

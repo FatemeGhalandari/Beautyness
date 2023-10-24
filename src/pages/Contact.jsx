@@ -1,11 +1,17 @@
-import React from 'react'
-
-const Contact = () => {
-  return (
-    <div>
-      
+import Banner from "../components/Contact/Banner";
+import Membership from "../components/ServicePage/Membership";
+import styles from "../styles";
+import Visit from "../components/Contact/Visit";
+const Reservation = () => (
+  <div className="w-full bg-white overflow-hidden">
+    <div className={`${styles.flexStart} `}>
+      <div className={` ${styles.boxWidth}`}>
+        <Banner />
+        <Visit/>
+        <Membership />
+      </div>
     </div>
-  )
-}
+  </div>
+);
 
-export default Contact
+export default Reservation;

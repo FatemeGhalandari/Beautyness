@@ -6,7 +6,7 @@ import {
   Features,
   Latest,
   Testimonials,
-} from "../components";
+} from "../components/Home";
 
 import styles from "../styles";
 

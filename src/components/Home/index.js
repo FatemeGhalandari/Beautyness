@@ -6,7 +6,7 @@ import Features from "./Features";
 import Footer from "../Footer";
 import Header from "../Header";
 import Latest from "./Latest";
-import Testimonials from "../Testimonials";
+import Testimonials from "./Testimonials";
 export {
   About,
   Appointment,

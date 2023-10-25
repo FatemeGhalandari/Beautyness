@@ -5,15 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import {
-  Home,
-  About,
-  Services,
-  Contact,
-  Blog,
-  Reservation,
-  Notfound,
-} from "./pages";
+import { Home, About, Services, Contact, Blog, Reservation } from "./pages";
 import RootLayout from "./components/RootLayout";
 
 const router = createBrowserRouter(
@@ -25,7 +17,6 @@ const router = createBrowserRouter(
       <Route path="/Contact" element={<Contact />} />
       <Route path="/Blog" element={<Blog />} />
       <Route path="/Reservation" element={<Reservation />} />
-      <Route path="*" element={<Notfound />} />
     </Route>
   )
 );

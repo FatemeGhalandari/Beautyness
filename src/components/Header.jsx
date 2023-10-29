@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Logo, reservation, close, menu } from "../assets";
 import { headerLinks } from "../data";
 import { NavLink } from "react-router-dom";
+import { Menu } from "./Menu";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-4 justify-between items-center navbar sm:px-16 ss:px-8 px-4">
-      <div className="flex sm:px-8 px-4">
+      <div className="flex md:px-8 sm:px-4 px-2">
         <NavLink to="/" className="flex sm:px-16 md:px-8">
           <img
             src={Logo}
@@ -59,32 +60,7 @@ const Header = () => {
             !toggle ? "hidden" : "flex"
           } absolute top-14 left-0 bg-[#FFF] pt-4 w-full item-center justify-center`}
         >
-          <div className="flex flex-col items-center justify-center rounded-t-[2px] ">
-            <ul className="flex flex-col mt-4">
-              {headerLinks.map((headerLink, index) => (
-                <li
-                  key={headerLink.id}
-                  className={`font-normal font-manrope text-[18px] cursor-pointer leading-[125%] text-[#555] ${
-                    index !== headerLinks.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  <NavLink to={headerLink.title}>{headerLink.title}</NavLink>
-                </li>
-              ))}
-            </ul>
-
-            <button
-              type="button"
-              className="flex flex-row justify-center items-center py-3"
-            >
-              <NavLink
-                to="/Reservation"
-                className="text-[#7A9CA5] text-center font-semibold font-manrope text-[16px] uppercase py-2"
-              >
-                reservation
-              </NavLink>
-            </button>
-          </div>
+          <Menu />
         </div>
       </div>
     </nav>

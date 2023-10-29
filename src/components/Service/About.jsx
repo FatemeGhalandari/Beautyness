@@ -1,7 +1,7 @@
 import { aboutService } from "../../assets";
 import Stage from "./Stage";
 const About = () => (
-  <div className="flex sm:flex-row flex-col bg-[#FFF]">
+  <div className="flex md:flex-row flex-col bg-[#FFF]">
     <div className="flex flex-col justify-center items-start py-10 sm:px-28 px-12 md:w-[50%] w-[100%] gap-4">
       <p className="text-[#5C8692] font-manrope text-[15px] font-normal leading-[154.5%] tracking-wide uppercase">
         What Includes?
@@ -20,7 +20,7 @@ const About = () => (
       </p>
       <Stage />
     </div>
-    <img src={aboutService} alt="aboutService" className="sm:w-[50%] w-full" />
+    <img src={aboutService} alt="aboutService" className="md:w-[50%] w-full md:object-cover object-contain" />
   </div>
 );
 

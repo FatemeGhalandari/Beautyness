@@ -1,15 +1,12 @@
-import { useState } from "react";
-import { Logo, reservation, close, menu } from "../assets";
+import { Logo, reservation } from "../assets";
 import { headerLinks } from "../data";
 import { NavLink } from "react-router-dom";
 import { Menu } from "./Menu";
-
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-4 justify-between items-center navbar sm:px-16 ss:px-8 px-4">
+    <nav className="w-full flex py-4 justify-between items-center navbar sm:px-16 ss:px-8 px-2">
       <div className="flex md:px-8 sm:px-4 px-2">
-        <NavLink to="/" className="flex sm:px-16 md:px-8">
+        <NavLink to="/" className="flex sm:px-16 md:px-8 px-2">
           <img
             src={Logo}
             alt="logo"
@@ -48,18 +45,8 @@ const Header = () => {
         </NavLink>
       </div>
       {/* responsive */}
-      <div className="md:hidden flex flex-1 justify-end items-center">
-        <img
-          src={toggle ? close : menu}
-          alt="menu"
-          className="w-[28px] h-[28px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}
-        />
-        <div
-          className={`${
-            !toggle ? "hidden" : "flex"
-          } absolute top-14 left-0 bg-[#FFF] pt-4 w-full item-center justify-center`}
-        >
+      <div className="md:hidden flex ">
+        <div className="flex items-center justify-center">
           <Menu />
         </div>
       </div>

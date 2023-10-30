@@ -3,7 +3,7 @@ import styles from "../../styles";
 import { NavLink } from "react-router-dom";
 const Story = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-20 px-20">
+    <div className="flex flex-col items-center justify-center py-20 sm:px-20 px-4">
       <StoryCard />
       <NavLink to="/Blog">
         <button type="button" className={`${styles.bt}`}>

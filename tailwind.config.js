@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+/*eslint no-undef: "error"*/
+/*eslint-env node*/
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
@@ -19,6 +21,17 @@ module.exports = withMT({
       backgroundImage: {
         bg1: "url('../src/assets/bg1.png')",
       },
+      animation: {
+        dropIn: "dropin .5s ease-in-out",
+      },
+
+      // that is actual animation
+      keyframes: () => ({
+        dropin: {
+          "0%": { opacity: 0, transform: "translate(0,-200px)" },
+          "100%": { opacity: 1, transform: "translate(0,0)" },
+        },
+      }),
     },
     screens: {
       xs: "480px",

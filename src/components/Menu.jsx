@@ -12,7 +12,12 @@ export function Menu() {
   OutsideMenu(ref, () => {
     setToggle();
   });
-
+  const toggleMenu = (e) => {
+    if (e) {
+      e.preventDefault();
+    }
+    setToggle();
+  };
   return (
     <div className="flex items-center justify-center px-4 " ref={ref}>
       <img
@@ -25,6 +30,7 @@ export function Menu() {
         className={`${
           !toggle ? "hidden" : "flex"
         } absolute top-14 left-0 w-full `}
+        onClick={toggleMenu}
       >
         <Card className=" w-full py-4 sm:px-20 px-6 animate-dropIn rounded-none">
           <div className="p-2">
